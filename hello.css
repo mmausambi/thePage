@@ -1,0 +1,53 @@
+/* unvisited link */
+a:link {
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+h1 {
+  color: white;
+  line-height: 11px;
+  font-family: "Krungthep", Regular, sans-serif;
+  font-size: 60px;
+  padding-top: 30%;
+}
+
+p {
+  float: none;
+  padding: 10% 1% 10% 1%;
+  border-top: 2px dashed brown;
+  color: tomato;
+  border-radius: 5px;
+  line-height: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  background-color: hsla(0, 100%, 90%, 0.2);
+}
+
+.full {
+  padding: 10% 10% 10% 10%;
+  background: black;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.aside {
+  opacity: 60%;
+}
+
+.images {
+  float:right;
+  padding: 1% 1% 1% 1%;
