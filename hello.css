@@ -19,7 +19,7 @@ a:active {
 }
 
 h1 {
-  color: white;
+  color: #262730;
   line-height: 11px;
   font-family: "Krungthep", Regular, sans-serif;
   font-size: 60px;
@@ -38,8 +38,8 @@ p {
 }
 
 .full {
-  padding: 10% 10% 10% 10%;
-  background: black;
+  padding: 50% 50% 50% 50%;
+  background: #EFF0D1;
   font-family: "Lucida Console", "Courier New", monospace;
 }
 
