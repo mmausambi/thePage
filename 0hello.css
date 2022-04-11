@@ -1,6 +1,7 @@
 /* unvisited link */
 a:link {
   text-decoration: none;
+  color: #EFF0D1;
 }
 
 /* visited link */
@@ -15,22 +16,23 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: blue;
+  color: #EFF0D1;
 }
 
+/* In order for the percentage heights to work we need this: */
+html, body { height:100%; }
+
 h1 {
-  color: #262730;
+/*  color: #262730;*/
   line-height: 11px;
   font-family: "Krungthep", Regular, sans-serif;
-  font-size: 60px;
+  font-size: 48px;
 }
 
 p {
   float: none;
-  padding: 10% 1% 10% 1%;
-  border-top: 2px dashed brown;
+  padding: 10% 10% 10% 10%;
   color: tomato;
-  border-radius: 5px;
   line-height: 30px;
   font-family: "Univers LT Std", "57 Condensed", sans-serif;
   font-size: 20px;
@@ -38,8 +40,15 @@ p {
 }
 
 .full {
-  padding: 50% 50% 50% 50%;
-  background: #EFF0D1;
+  /*
+  border-color: blue;
+  border-width: 10px;
+  border-style: solid;
+  */
+
+
+  background: #262730;
+
   font-family: "Univers LT Std", "57 Condensed", sans-serif;
 }
 

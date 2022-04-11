@@ -1,0 +1,43 @@
+.dot {
+  /*
+  height: 500px;
+  width: 500px;
+  background-color: #EFF0D1;
+  border-radius: 50%;
+  display: inline-block;
+  transform: translate(0, 50);
+  */
+  /*
+  position: absolute;
+            top: 90%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 300px;
+            width: 500px;
+            border-radius: 300px 300px 0 0;
+            background-color: #EFF0D1;
+*/
+
+  width: 80%;
+  height: 200px; /* half of width*/
+  border-radius: 900px 900px 0px 0px;
+  background-color: #EFF0D1;
+  display: inline-block;
+
+
+}
+
+.content {
+  /*border-style: solid;*/
+  border-color: blue;
+
+padding-top: 50%;
+
+}
+
+.play {
+  border: solid red;
+  transform: translate(30px, 20px) rotate(20deg);
+  width: 140px;
+  height: 60px;
+}
