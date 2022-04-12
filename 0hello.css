@@ -6,12 +6,12 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: green;
+  color: #EFF0D1;
 }
 
 /* mouse over link */
 a:hover {
-  color: hotpink;
+  color: #D6C0D0;
 }
 
 /* selected link */
@@ -22,12 +22,6 @@ a:active {
 /* In order for the percentage heights to work we need this: */
 html, body { height:100%; }
 
-h1 {
-/*  color: #262730;*/
-  line-height: 11px;
-  font-family: "Didot", sans-serif;
-  font-size: 30px;
-}
 
 p {
   float: none;

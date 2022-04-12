@@ -3,14 +3,14 @@ h1 {
 /*  color: #262730;*/
   line-height: 11px;
   font-family: "Didot", sans-serif;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 
 .content {
-  /*border-style: solid;*/
-border-color: blue;
-padding-top: 50%;
+  /*border-style: solid;
+    border-color: blue;*/
+padding-top: 40%;
 padding-bottom: 0;
 margin-bottom: 0;
 }
