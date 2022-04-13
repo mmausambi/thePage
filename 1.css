@@ -1,3 +1,5 @@
+@media (max-width: 1210px ) {
+
 .content1 {
 position: relative;
 
@@ -81,3 +83,4 @@ z-index: 2;
 
 }
 */
+}
