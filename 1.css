@@ -1,8 +1,83 @@
 .content1 {
-  border-style: solid;
-    border-color: blue;
+position: relative;
 
-padding-top: 20%;
+  border-style: solid;
+  border-color: blue;
+
+  padding-top: 10%;
+  z-index:0;
+}
+
+.ourgaze {
+  border-style: solid;
+  border-color: purple;
+
+  position: absolute;
+
+  color: #EFF0D1;
+  line-height: 11px;
+  font-family: "Didot", sans-serif;
+  font-size: 40px;
+  letter-spacing: 0.4px;
+  margin-top: 5%;
+  margin-left: 38%;
+  z-index:2;
 
 
 }
+
+.Our {
+  padding-left: 50%;
+  padding-top: 46px;
+
+}
+
+.Gaze {
+  padding-top: 40px;
+  padding-left: 92%;
+
+  color: #262730;
+
+}
+
+.Travels {
+padding-top: 80px;
+padding-left: 0px;
+}
+
+.Through {
+  padding-top: 70px;
+  padding-left: 92%;
+
+}
+
+.Space {
+  padding-top: 270px;
+  padding-left: 32%;
+  color: #262730;
+}
+
+.dot {
+
+  position: absolute;
+  height: 19px;
+  width: 19px;
+  background-color: #EFF0D1;
+  border-radius: 50%;
+  display: inline-block;
+
+margin-top: 320px;
+margin-left: 630px;
+z-index: 2;
+}
+
+/*
+.gazethrough {
+  border-style: solid;
+  border-color: pink;
+
+
+  position:relative;
+
+}
+*/
