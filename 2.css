@@ -1,0 +1,52 @@
+.content2 {
+  position: relative;
+
+  align-items: center;
+  border-style: solid;
+  border-color: pink;
+
+  z-index:0;
+
+
+}
+
+.playwithspace{
+position: absolute;
+/*
+  border-style: solid;
+  border-color: green;
+  */
+
+  color: #EFF0D1;
+  line-height: 11px;
+  font-family: "Didot", sans-serif;
+  font-size: 40px;
+  letter-spacing: 0.4px;
+  letter-spacing: 0.4px;
+}
+
+
+
+
+.Play {
+  /*
+  border: solid red;
+  */
+  transform: translate(630px, 160px) rotate(20deg);
+  width: 140px;
+  height: 60px;
+}
+
+@media (max-width: 1040px ) {
+  .Play {
+    transform: translate(390px, 90px) rotate(20deg);
+
+  }
+}
+
+@media (max-width: 750px ) {
+  .Play {
+    transform: translate(290px, 80px) rotate(20deg);
+
+  }
+}
